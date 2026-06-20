@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your complete guide to visiting California's Redwood National & State Parks. Hiking trails, camping, lodging, and travel tips for exploring the world's tallest trees.">
+    <title>Redwood Escapes — Explore California's Ancient Giants</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🌲</span>
+                <span class="logo-text">Redwood Escapes</span>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hiking">Hiking</a></li>
+                <li><a href="#camping">Camping</a></li>
+                <li><a href="#lodging">Lodging</a></li>
+                <li><a href="#plan">Plan Visit</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-eyebrow">California's Northern Coast</span>
+            <h1>Walk Among the<br><em>World's Tallest Trees</em></h1>
+            <p>Ancient redwood forests stretching 350 feet toward the sky, pristine rivers, rugged coastline, and wildlife that takes your breath away. Your adventure starts here.</p>
+            <div class="hero-actions">
+                <a href="#hiking" class="btn-primary">Explore Trails</a>
+                <a href="#camping" class="btn-secondary">Find Camping</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to discover</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stat-item">
+                <span class="stat-number">380<sup>ft</sup></span>
+                <span class="stat-label">Tallest Known Tree</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">2,200+</span>
+                <span class="stat-label">Years Old</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">139K</span>
+                <span class="stat-label">Protected Acres</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">200+</span>
+                <span class="stat-label">Miles of Trails</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">5</span>
+                <span class="stat-label">Parks to Explore</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-eyebrow">About the Forest</span>
+                    <h2>A Living Cathedral of Ancient Trees</h2>
+                    <p>The Redwood National and State Parks system stretches along California's stunning northern coast, protecting the last remaining old-growth coast redwood forests on Earth. These magnificent trees — the tallest living things on our planet — create a canopy so dense that sunlight filters through in golden shafts, casting an otherworldly glow on the forest floor below.</p>
+                    <p>Designated a UNESCO World Heritage Site, the redwood ecosystem supports extraordinary biodiversity: Roosevelt elk, black bears, marbled murrelets, steelhead trout, and hundreds of plant species call these forests home.</p>
+                    <div class="about-badges">
+                        <div class="badge">🏆 UNESCO World Heritage Site</div>
+                        <div class="badge">🌿 National Park since 1968</div>
+                        <div class="badge">🦌 Critical Wildlife Habitat</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=600&h=700&fit=crop&q=80" alt="Sunlight streaming through giant redwood trees">
+                    <p class="image-caption">Sunlight breaks through the ancient canopy in Prairie Creek Redwoods State Park</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasons Section -->
+    <section class="seasons">
+        <div class="container">
+            <span class="section-eyebrow">When to Visit</span>
+            <h2>Plan by Season</h2>
+            <div class="seasons-grid">
+                <div class="season-card">
+                    <div class="season-icon">🌸</div>
+                    <h3>Spring</h3>
+                    <span class="season-months">March – May</span>
+                    <p>Wildflowers bloom, waterfalls peak. Fewer crowds and mild temperatures — ideal for hikers and photographers.</p>
+                    <div class="season-rating">
+                        <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                    </div>
+                </div>
+                <div class="season-card best-season">
+                    <div class="season-badge">Best Time</div>
+                    <div class="season-icon">☀️</div>
+                    <h3>Summer</h3>
+                    <span class="season-months">June – August</span>
+                    <p>Warmest, driest weather. Long daylight and all facilities open. Book camping and lodging 2–3 months in advance.</p>
+                    <div class="season-rating">
+                        <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span>
+                    </div>
+                </div>
+                <div class="season-card">
+                    <div class="season-icon">🍂</div>
+                    <h3>Fall</h3>
+                    <span class="season-months">September – November</span>
+                    <p>Golden light, elk rutting season, dramatically fewer visitors. Still warm enough for comfortable hiking and camping.</p>
+                    <div class="season-rating">
+                        <span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span>
+                    </div>
+                </div>
+                <div class="season-card">
+                    <div class="season-icon">🌧️</div>
+                    <h3>Winter</h3>
+                    <span class="season-months">December – February</span>
+                    <p>Heavy rainfall brings lush greenery and complete solitude. Some closures possible. Not recommended for beginners.</p>
+                    <div class="season-rating">
+                        <span class="dot filled"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hiking Section -->
+    <section id="hiking" class="hiking">
+        <div class="container">
+            <span class="section-eyebrow">Get Outside</span>
+            <h2>Hiking Trails</h2>
+            <p class="section-intro">From leisurely forest strolls to dramatic backcountry routes, the redwood parks offer trails for every ability level.</p>
+
+            <div class="trail-grid">
+                <div class="trail-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=500&h=300&fit=crop&q=80" alt="Forest path through tall redwood trees">
+                        <div class="trail-badge moderate">Moderate</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Tall Trees Grove Trail</h3>
+                        <div class="trail-meta">
+                            <span>📍 Redwood National Park</span>
+                            <span>🥾 4.5 miles</span>
+                        </div>
+                        <p>Walk among the tallest trees on Earth. This iconic trail descends through pristine old-growth groves to Redwood Creek. Some trees here exceed 350 feet. Free permit required — pick up at the visitor center.</p>
+                        <ul class="highlights">
+                            <li>Free permit required</li>
+                            <li>Most scenic redwood views</li>
+                            <li>River access at trail end</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="trail-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=500&h=300&fit=crop&q=80" alt="Newton B Drury scenic trail through forest">
+                        <div class="trail-badge easy">Easy</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Newton B. Drury Scenic Pkwy</h3>
+                        <div class="trail-meta">
+                            <span>📍 Prairie Creek Redwoods</span>
+                            <span>🥾 3 miles</span>
+                        </div>
+                        <p>A peaceful loop through old-growth forest with stunning canopy views. Perfect for families and photographers. Roosevelt elk are frequently spotted grazing alongside this trail.</p>
+                        <ul class="highlights">
+                            <li>Family-friendly terrain</li>
+                            <li>Excellent photography spots</li>
+                            <li>Elk frequently spotted</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="trail-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500&h=300&fit=crop&q=80" alt="Fern Canyon trail with 50-foot fern walls">
+                        <div class="trail-badge moderate">Moderate</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Fern Canyon Trail</h3>
+                        <div class="trail-meta">
+                            <span>📍 Prairie Creek Redwoods</span>
+                            <span>🥾 1 mile loop</span>
+                        </div>
+                        <p>A 50-foot deep canyon blanketed in five-finger ferns that looks like it belongs in another era — it was a filming location for Jurassic Park 2. Connects to Gold Bluffs Beach.</p>
+                        <ul class="highlights">
+                            <li>50-ft fern-covered canyon walls</li>
+                            <li>Jurassic Park filming location</li>
+                            <li>Gold Bluffs Beach access</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="trail-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=500&h=300&fit=crop&q=80" alt="Damnation Creek coastal trail with ocean views">
+                        <div class="trail-badge hard">Challenging</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Damnation Creek Trail</h3>
+                        <div class="trail-meta">
+                            <span>📍 Del Norte Coast Redwoods</span>
+                            <span>🥾 4.4 miles</span>
+                        </div>
+                        <p>Old-growth redwoods dramatically meeting the Pacific Ocean. Steep switchbacks descend to a secluded hidden beach. The rare combination of ancient forest and crashing surf makes this one of California's most dramatic hikes.</p>
+                        <ul class="highlights">
+                            <li>Secluded hidden beach at end</li>
+                            <li>Old-growth meets the ocean</li>
+                            <li>Whale watching (Dec–Apr)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-callout">
+                <h3>Before You Hike</h3>
+                <div class="tips-grid">
+                    <div class="tip"><strong>Best Season</strong>May–October for all trails; winter may mean closures and muddy conditions</div>
+                    <div class="tip"><strong>What to Pack</strong>Sturdy boots, 2+ liters water, layers, headlamp, and bear canister</div>
+                    <div class="tip"><strong>Permits</strong>Tall Trees Grove requires a free permit from the Thomas H. Kuchel Visitor Center</div>
+                    <div class="tip"><strong>Wildlife</strong>Stay 75 ft from elk. Make noise on trails. Store food properly to avoid bear encounters.</div>
+                    <div class="tip"><strong>Parking</strong>Arrive before 9am — popular trailheads fill by mid-morning in summer</div>
+                    <div class="tip"><strong>Cell Service</strong>Minimal to none inside the parks. Download offline maps before you leave town.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wildlife Section -->
+    <section class="wildlife">
+        <div class="container">
+            <span class="section-eyebrow">Fauna & Flora</span>
+            <h2>Wildlife You Might Encounter</h2>
+            <p class="section-intro">The redwood ecosystem is a biodiversity hotspot. Keep your eyes open and your distance respectful.</p>
+            <div class="wildlife-grid">
+                <div class="wildlife-card">
+                    <div class="wildlife-emoji">🦌</div>
+                    <h3>Roosevelt Elk</h3>
+                    <p>North America's largest elk. Regularly spotted at Elk Meadow near Prairie Creek. Stay 75+ feet away during rutting season (Sept–Nov).</p>
+                </div>
+                <div class="wildlife-card">
+                    <div class="wildlife-emoji">🐻</div>
+                    <h3>Black Bear</h3>
+                    <p>Common throughout the parks. Use bear canisters for all food storage. Never approach or feed them. Most active at dawn and dusk.</p>
+                </div>
+                <div class="wildlife-card">
+                    <div class="wildlife-emoji">🦦</div>
+                    <h3>River Otters</h3>
+                    <p>Often spotted along the Smith River and lagoons. Active and playful, they are a delight to watch from the riverbank.</p>
+                </div>
+                <div class="wildlife-card">
+                    <div class="wildlife-emoji">🦅</div>
+                    <h3>Marbled Murrelet</h3>
+                    <p>A rare seabird that nests only in old-growth redwood forests. Their haunting call at dawn is one of the signature sounds of the forest.</p>
+                </div>
+                <div class="wildlife-card">
+                    <div class="wildlife-emoji">🐟</div>
+                    <h3>Steelhead Trout</h3>
+                    <p>The pristine Smith River is California's premier steelhead stream. Watch them spawn in late fall and winter from riverside overlooks.</p>
+                </div>
+                <div class="wildlife-card">
+                    <div class="wildlife-emoji">🌿</div>
+                    <h3>Redwood Sorrel</h3>
+                    <p>The brilliant green ground cover carpeting the forest floor. It folds its leaves on sunny days — a beautiful adaptation to the filtered canopy light.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Camping Section -->
+    <section id="camping" class="camping">
+        <div class="container">
+            <span class="section-eyebrow">Sleep Under the Giants</span>
+            <h2>Campgrounds</h2>
+            <p class="section-intro">Fall asleep to the sounds of the forest and wake to morning light filtering through a 300-foot canopy.</p>
+
+            <div class="camping-grid">
+                <div class="camp-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=500&h=300&fit=crop&q=80" alt="Campsite among tall redwood trees">
+                        <div class="camp-badge">Year-Round</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Prairie Creek Redwoods Campground</h3>
+                        <p class="camp-location">📍 Orick, CA &nbsp;|&nbsp; 75 sites</p>
+                        <p>Nestled among old-growth forest near Fern Canyon and Gold Bluffs Beach. Ranger-led programs run evenings in summer. One of the best campground locations in the entire park system.</p>
+                        <div class="amenities">
+                            <span>🚿 Hot Showers</span>
+                            <span>💧 Water</span>
+                            <span>🔥 Fire Rings</span>
+                            <span>♿ Accessible</span>
+                        </div>
+                        <div class="camp-footer">
+                            <p class="price">$35 / night</p>
+                            <a href="#contact" class="btn-small">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="camp-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500&h=300&fit=crop&q=80" alt="Gold Bluffs Beach camping between ocean and redwoods">
+                        <div class="camp-badge seasonal">Mar – Nov</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Gold Bluffs Beach Campground</h3>
+                        <p class="camp-location">📍 Prairie Creek Redwoods &nbsp;|&nbsp; 25 sites</p>
+                        <p>A rare experience: camp between ocean bluffs and redwood forest. Wake to crashing waves and spot Roosevelt elk grazing the beach at dawn. High-clearance vehicle recommended for the access road.</p>
+                        <div class="amenities">
+                            <span>🚿 Cold Showers</span>
+                            <span>💧 Water</span>
+                            <span>🏖️ Beach Access</span>
+                            <span>🦌 Elk Nearby</span>
+                        </div>
+                        <div class="camp-footer">
+                            <p class="price">$40 / night</p>
+                            <a href="#contact" class="btn-small">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="camp-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=300&fit=crop&q=80" alt="Humboldt Lagoons camping near the water">
+                        <div class="camp-badge">Year-Round</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Humboldt Lagoons State Park</h3>
+                        <p class="camp-location">📍 Trinidad, CA &nbsp;|&nbsp; 120 sites</p>
+                        <p>Lagoon-side camping with excellent kayaking, fishing, and birdwatching. Multiple camping areas from full hookups to primitive sites. Ideal for visitors combining coastal and forest activities.</p>
+                        <div class="amenities">
+                            <span>🚣 Kayak Launch</span>
+                            <span>🎣 Fishing</span>
+                            <span>🚿 Showers</span>
+                            <span>🦆 Birdwatching</span>
+                        </div>
+                        <div class="camp-footer">
+                            <p class="price">$25–35 / night</p>
+                            <a href="#contact" class="btn-small">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="camp-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=500&h=300&fit=crop&q=80" alt="Jedediah Smith campground along the Smith River">
+                        <div class="camp-badge seasonal">May – Sep</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Jedediah Smith Campground</h3>
+                        <p class="camp-location">📍 Smith River, CA &nbsp;|&nbsp; 86 sites</p>
+                        <p>The crown jewel of redwood camping. Set along the brilliant turquoise Smith River within the densest old-growth grove in the parks. Beloved by swimmers, anglers, and kayakers.</p>
+                        <div class="amenities">
+                            <span>🚿 Hot Showers</span>
+                            <span>💧 Water</span>
+                            <span>🏊 River Swimming</span>
+                            <span>🥾 Trail Access</span>
+                        </div>
+                        <div class="camp-footer">
+                            <p class="price">$38 / night</p>
+                            <a href="#contact" class="btn-small">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-callout">
+                <h3>Camping Essentials Checklist</h3>
+                <div class="checklist">
+                    <div class="checklist-column">
+                        <label><input type="checkbox"> Tent & sleeping bags (rated 40°F+)</label>
+                        <label><input type="checkbox"> Camping stove & fuel</label>
+                        <label><input type="checkbox"> Cookware & utensils</label>
+                        <label><input type="checkbox"> Headlamp with extra batteries</label>
+                        <label><input type="checkbox"> First aid kit</label>
+                    </div>
+                    <div class="checklist-column">
+                        <label><input type="checkbox"> Bear canister (required in some areas)</label>
+                        <label><input type="checkbox"> Warm layers + waterproof jacket</label>
+                        <label><input type="checkbox"> Insect repellent</label>
+                        <label><input type="checkbox"> Cooler with plenty of food</label>
+                        <label><input type="checkbox"> Offline maps downloaded</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lodging Section -->
+    <section id="lodging" class="lodging">
+        <div class="container">
+            <span class="section-eyebrow">Rest & Recharge</span>
+            <h2>Lodging Options</h2>
+            <p class="section-intro">Comfort levels from glamping tents to luxury lodges — all within easy reach of the parks.</p>
+
+            <div class="lodging-grid">
+                <div class="lodging-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&h=300&fit=crop&q=80" alt="Luxury lodge near the redwoods">
+                        <div class="lodging-badge luxury">Luxury</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>The Redwood Manor Lodge</h3>
+                        <p class="lodging-location">📍 Eureka, CA &nbsp;|&nbsp; Historic Luxury Hotel</p>
+                        <p>Built in 1886, this Victorian mansion offers sumptuous rooms, a full-service restaurant, and spa services. A 45-minute drive to the main parks makes it ideal for those who prefer hotel comfort.</p>
+                        <div class="features">
+                            <span>⭐ 4-Star Rated</span>
+                            <span>🍽️ Fine Dining</span>
+                            <span>♨️ Full Spa</span>
+                        </div>
+                        <div class="lodge-footer">
+                            <p class="price">From $180/night</p>
+                            <button class="btn-small">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lodging-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=500&h=300&fit=crop&q=80" alt="Rustic cabin in the forest">
+                        <div class="lodging-badge cabin">Cabin</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Forest Haven Cabins</h3>
+                        <p class="lodging-location">📍 Myers Flat, CA &nbsp;|&nbsp; Rustic Cabins</p>
+                        <p>Cozy cabins with private hot tubs and stone fireplaces, surrounded by second-growth redwoods. Perfect for couples. 20 minutes to the old-growth groves.</p>
+                        <div class="features">
+                            <span>🛁 Private Hot Tub</span>
+                            <span>🔥 Stone Fireplace</span>
+                            <span>🍳 Kitchenette</span>
+                        </div>
+                        <div class="lodge-footer">
+                            <p class="price">From $120/night</p>
+                            <button class="btn-small">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lodging-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&h=300&fit=crop&q=80" alt="Eco-friendly lodge surrounded by nature">
+                        <div class="lodging-badge eco">Eco Stay</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Redwood Eco-Resort</h3>
+                        <p class="lodging-location">📍 Scotia, CA &nbsp;|&nbsp; Eco-Friendly Resort</p>
+                        <p>A carbon-neutral resort powered by solar and hydro energy with organic linens, a farm-to-table restaurant, and on-site nature guides for daily ranger-led experiences.</p>
+                        <div class="features">
+                            <span>🌱 Carbon Neutral</span>
+                            <span>♨️ Wellness Spa</span>
+                            <span>🥗 Farm-to-Table</span>
+                        </div>
+                        <div class="lodge-footer">
+                            <p class="price">From $200/night</p>
+                            <button class="btn-small">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lodging-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&h=300&fit=crop&q=80" alt="Clean comfortable budget motel room">
+                        <div class="lodging-badge budget">Budget</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Roadside Redwood Inn</h3>
+                        <p class="lodging-location">📍 Fortuna, CA &nbsp;|&nbsp; Comfortable Motel</p>
+                        <p>Clean, reliable rooms right off Highway 101 with easy access to all major redwood parks. Continental breakfast included. Great for families and budget-conscious travelers.</p>
+                        <div class="features">
+                            <span>💰 Best Value</span>
+                            <span>☕ Breakfast Incl.</span>
+                            <span>🅿️ Free Parking</span>
+                        </div>
+                        <div class="lodge-footer">
+                            <p class="price">From $70/night</p>
+                            <button class="btn-small">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lodging-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&h=300&fit=crop&q=80" alt="Charming cottage vacation rental">
+                        <div class="lodging-badge rental">Rental</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Riverside Cottage Rentals</h3>
+                        <p class="lodging-location">📍 Various Locations &nbsp;|&nbsp; Vacation Rentals</p>
+                        <p>Privately-owned cottages and homes throughout the region. Fully equipped kitchens, private decks, and unique character. Best for groups, families, or extended stays.</p>
+                        <div class="features">
+                            <span>👨‍👩‍👧‍👦 Groups Welcome</span>
+                            <span>🍳 Full Kitchen</span>
+                            <span>🏠 Home Comfort</span>
+                        </div>
+                        <div class="lodge-footer">
+                            <p class="price">From $100/night</p>
+                            <button class="btn-small">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lodging-card">
+                    <div class="card-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1478827387698-1527781a4887?w=500&h=300&fit=crop&q=80" alt="Glamping safari tent with real beds">
+                        <div class="lodging-badge glamping">Glamping</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Glamping Under the Giants</h3>
+                        <p class="lodging-location">📍 Fortuna, CA &nbsp;|&nbsp; Safari-Style Tents</p>
+                        <p>Safari-style canvas tents with real beds, crisp linen, and private en-suite bathrooms. S'mores kit and communal fire pit included. The perfect blend of outdoor adventure and hotel comfort.</p>
+                        <div class="features">
+                            <span>🏕️ Safari Tents</span>
+                            <span>🛏️ Real Beds</span>
+                            <span>🚿 Private Baths</span>
+                        </div>
+                        <div class="lodge-footer">
+                            <p class="price">From $150/night</p>
+                            <button class="btn-small">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-callout">
+                <h3>Lodging Tips</h3>
+                <div class="tips-grid">
+                    <div class="tip"><strong>Book Early</strong>Peak season (June–September) books out 2–3 months ahead — especially cabins and glamping</div>
+                    <div class="tip"><strong>Best Proximity</strong>Stay within 30–60 minutes of your target parks for comfortable day trips without long drives</div>
+                    <div class="tip"><strong>Cell Coverage</strong>Verify WiFi if you work remotely. Coverage is spotty inside the parks and in many surrounding towns.</div>
+                    <div class="tip"><strong>Cancel Policy</strong>Always read cancellation policies before booking. Weather and road conditions can change plans.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Planning Section -->
+    <section id="plan" class="travel-plan">
+        <div class="container">
+            <span class="section-eyebrow">Visitor Guide</span>
+            <h2>Plan Your Visit</h2>
+            <div class="planning-info">
+                <div class="info-box">
+                    <div class="info-icon">✈️</div>
+                    <h3>Getting There</h3>
+                    <ul>
+                        <li><strong>By Air:</strong> Arcata-Eureka Airport (ACV) — daily flights from SFO &amp; LAX</li>
+                        <li><strong>From SF:</strong> 5–6 hours via US-101 North (scenic coastal route)</li>
+                        <li><strong>From LA:</strong> 8–9 hours via I-5 North to US-101</li>
+                        <li><strong>Route Tip:</strong> US-101 coast route is slower but far more scenic — worth every mile</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <div class="info-icon">🗺️</div>
+                    <h3>Key Parks to Visit</h3>
+                    <ul>
+                        <li><strong>Redwood National Park:</strong> HQ in Crescent City; Tall Trees Grove</li>
+                        <li><strong>Prairie Creek Redwoods SP:</strong> Best for Fern Canyon &amp; elk</li>
+                        <li><strong>Jedediah Smith Redwoods SP:</strong> Smith River &amp; densest groves</li>
+                        <li><strong>Humboldt Redwoods SP:</strong> Avenue of the Giants scenic drive</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <div class="info-icon">💵</div>
+                    <h3>Fees &amp; Costs</h3>
+                    <ul>
+                        <li><strong>Park Entry:</strong> Redwood National Park is free; State Parks $8–12/vehicle/day</li>
+                        <li><strong>Annual Pass:</strong> CA State Parks Discovery Pass ($125) pays for itself fast</li>
+                        <li><strong>Budget Trip:</strong> Camping + cooking = $50–100/person/day</li>
+                        <li><strong>Full Experience:</strong> $150–300/person/day including lodging and dining</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <span class="section-eyebrow">Reach Out</span>
+            <h2>Contact &amp; Information</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-detail">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>info@redwoodescapes.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>(707) 555-0123</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon">🕐</span>
+                        <div>
+                            <strong>Hours</strong>
+                            <p>Monday–Sunday, 8am–6pm PST</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Address</strong>
+                            <p>123 Redwood Ave, Eureka, CA 95501</p>
+                        </div>
+                    </div>
+
+                    <div class="resources">
+                        <h4>Official Resources</h4>
+                        <ul>
+                            <li><a href="#">Redwood National Park — NPS.gov</a></li>
+                            <li><a href="#">California State Parks — Redwoods</a></li>
+                            <li><a href="#">Reserve America — Campground Bookings</a></li>
+                            <li><a href="#">Trail &amp; Road Condition Updates</a></li>
+                            <li><a href="#">Wildlife Safety Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Quick Inquiry</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Jane Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="jane@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject">
+                                <option>Trip Planning Help</option>
+                                <option>Camping Reservations</option>
+                                <option>Lodging Inquiry</option>
+                                <option>Trail Conditions</option>
+                                <option>General Question</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Tell us about your trip plans..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">🌲 Redwood Escapes</div>
+                    <p>Your trusted guide to exploring California's ancient redwood forests. We help you plan an unforgettable wilderness experience, from first-time visitors to seasoned backcountry hikers.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">👍</a>
+                        <a href="#" aria-label="YouTube">▶️</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#hiking">Hiking Trails</a></li>
+                        <li><a href="#camping">Campgrounds</a></li>
+                        <li><a href="#lodging">Lodging</a></li>
+                        <li><a href="#plan">Plan Your Visit</a></li>
+                        <li><a href="#about">About the Parks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Parks</h4>
+                    <ul>
+                        <li><a href="#">Redwood National Park</a></li>
+                        <li><a href="#">Prairie Creek Redwoods</a></li>
+                        <li><a href="#">Jedediah Smith SP</a></li>
+                        <li><a href="#">Del Norte Coast SP</a></li>
+                        <li><a href="#">Humboldt Redwoods SP</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Visitor Info</h4>
+                    <ul>
+                        <li><a href="#">Trail Conditions</a></li>
+                        <li><a href="#">Wildlife Guide</a></li>
+                        <li><a href="#">Permits &amp; Passes</a></li>
+                        <li><a href="#">Safety Guidelines</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Redwood Escapes. All rights reserved.</p>
+                <p class="footer-tagline">Travel responsibly. Leave no trace. Protect our ancient forests. 🌲</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+    </script>
+</body>
+</html>

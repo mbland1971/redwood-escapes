@@ -1,0 +1,13 @@
+{
+  "name": "redwood-escapes",
+  "version": "1.0.0",
+  "description": "Redwood Forest tourist information website",
+  "scripts": {
+    "test": "playwright test",
+    "test:images": "node tests/check-images.js",
+    "test:all": "node tests/check-images.js && playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}
