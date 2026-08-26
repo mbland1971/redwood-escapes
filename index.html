@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your complete guide to visiting California's Redwood National & State Parks. Hiking trails, camping, lodging, and travel tips for exploring the world's tallest trees.">
     <title>Redwood Escapes — Explore California's Ancient Giants</title>
@@ -173,7 +175,7 @@
                             <li>Most scenic redwood views</li>
                             <li>River access at trail end</li>
                         </ul>
-                        <a href="trails/tall-trees-grove.html" class="btn-small" style="margin-top:1rem; display:inline-block;">Full Trail Guide</a>
+                        <a href="trails/tall-trees-grove.html" class="btn-small btn-small-block">Full Trail Guide</a>
                     </div>
                 </div>
 
@@ -194,7 +196,7 @@
                             <li>Excellent photography spots</li>
                             <li>Elk frequently spotted</li>
                         </ul>
-                        <a href="trails/newton-drury-scenic-parkway.html" class="btn-small" style="margin-top:1rem; display:inline-block;">Full Trail Guide</a>
+                        <a href="trails/newton-drury-scenic-parkway.html" class="btn-small btn-small-block">Full Trail Guide</a>
                     </div>
                 </div>
 
@@ -215,7 +217,7 @@
                             <li>Jurassic Park filming location</li>
                             <li>Gold Bluffs Beach access</li>
                         </ul>
-                        <a href="trails/fern-canyon.html" class="btn-small" style="margin-top:1rem; display:inline-block;">Full Trail Guide</a>
+                        <a href="trails/fern-canyon.html" class="btn-small btn-small-block">Full Trail Guide</a>
                     </div>
                 </div>
 
@@ -236,7 +238,7 @@
                             <li>Old-growth meets the ocean</li>
                             <li>Whale watching (Dec–Apr)</li>
                         </ul>
-                        <a href="trails/damnation-creek.html" class="btn-small" style="margin-top:1rem; display:inline-block;">Full Trail Guide</a>
+                        <a href="trails/damnation-creek.html" class="btn-small btn-small-block">Full Trail Guide</a>
                     </div>
                 </div>
             </div>
@@ -729,25 +731,6 @@
         </div>
     </footer>
 
-    <script>
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            navbar.classList.toggle('scrolled', window.scrollY > 60);
-        });
-
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('navLinks');
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('open');
-        });
-
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('open');
-            });
-        });
-    </script>
+    <script src="nav.js" defer></script>
 </body>
 </html>

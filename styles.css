@@ -758,6 +758,9 @@ section { padding: 80px 0; }
 
 .btn-small:hover { background: #2d5016; }
 
+/* Trail-card CTA: same button, pushed clear of the copy above it. */
+.btn-small-block { margin-top: 1rem; }
+
 .checklist {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
